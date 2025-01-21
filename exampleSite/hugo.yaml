@@ -16,12 +16,13 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
+
 defaultContentLanguage: en
 languages:
   en:
     languageName: English
     weight: 1
-    title: Hextra
+    title: Flaxy.co
   fa:
     languageName: فارسی
     languageCode: fa
@@ -38,6 +39,12 @@ languages:
     languageCode: zh-CN
     weight: 4
     title: Hextra
+  ar:
+    languageName: عربي
+    languageCode: ar
+    languageDirection: rtl
+    weight: 5
+    title: عربي
 
 module:
   hugoVersion:
@@ -65,9 +72,9 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
+    - identifier: courses
+      name: Courses
+      pageRef: /courses
       weight: 1
     - identifier: showcase
       name: Showcase
@@ -108,6 +115,10 @@ menu:
 
 params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  courses:
+    title: "الدورات التدريبية"
+    description: "تعلم من خلال دوراتنا التدريبية المتخصصة."
+
 
   navbar:
     displayTitle: true

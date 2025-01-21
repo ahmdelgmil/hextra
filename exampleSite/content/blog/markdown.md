@@ -1,5 +1,5 @@
 ---
-title: Markdown Syntax Guide
+title: Markdown Syntax Guide 2
 date: 2020-01-01
 authors:
   - name: imfing
@@ -12,7 +12,7 @@ tags:
   - Markdown
   - Example
   - Guide
-excludeSearch: true
+excludeSearch: false
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
